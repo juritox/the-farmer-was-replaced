@@ -1,0 +1,8 @@
+# Ignore game buildins file
+__builtins__.py
+
+# Ignore game save file
+save.json
+
+# Ignore my file for testing in simulation
+simulation.py
