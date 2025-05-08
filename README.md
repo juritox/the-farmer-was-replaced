@@ -12,6 +12,17 @@ The game's scripting language is essentially a simplified form of Python. It use
 
 That being said, some Python features are not available in the game. For example, you cannot use type annotations or docstrings, so my scripts will be documented only with simple comments and notes here. Additionally, importing modules from Python’s standard library is not possible, so advanced features like sorting must be implemented from scratch which adds an extra layer of challenge.
 
+## Game Version Used
+
+My scripts work on the early access version of the game where the [Simulation Update](https://store.steampowered.com/news/app/2060160/view/783160409258459178) was the latest major update. You can check the versions of the game on [SteamDB Patches page](https://steamdb.info/app/2060160/patchnotes/).
+
+> **Note:** There is no guarantee that my scripts will continue to work after future game updates. Always read patch notes to see if any code changes may break compatibility, and update scripts as needed.
+
+```bash
+Latest tested game BuildID: 17763496
+Last tested: 2025-05-09
+```
+
 ## Scripts Overview
 
 ### `main`
